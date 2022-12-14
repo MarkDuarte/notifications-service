@@ -2,7 +2,7 @@ import { Replace } from 'src/helpers/replace';
 import { Content } from './content';
 
 export interface NotificationProps {
-  recipintId: string;
+  recipientId: string;
   content: Content;
   category: string;
   readAt?: Date | null;
